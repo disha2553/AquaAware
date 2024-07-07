@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AquaAware - Water Conservation and Sanitation</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "f6f323af-2ae2-4c95-b7c4-faff0b9204f0", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "f1985a1b-dea5-422e-a273-0936a942d5d0", // The ID of your service instance.
+          onLoad: async (instance) => { await instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+      
+    <header class="hero">
+        <div class="overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to AquaAware</h1>
+                <p class="hero-subtitle">Promoting Water Conservation and Sanitation</p>
+                <a href="#calculator" class="btn btn-primary btn-lg">Calculate Your Water Usage</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section bg-light">
+        <div class="container text-center">
+            <div class="about-container">
+                <div class="about-text-overlay">
+                    <h2 class="section-title mb-4">About Us</h2>
+                    <p class="section-description">
+                        Welcome to AquaAware, your ultimate destination for everything water conservation and sanitation. Discover vital information and resources to understand the importance of conserving water and maintaining proper sanitation practices. Explore our interactive water usage calculator to estimate your daily consumption and learn practical ways to reduce it. Have questions? Our friendly chatbot is here to provide instant answers and guidance. Join us in our mission to promote sustainable water use, safeguard public health, and protect our planet's most precious resource. Together, let's make a difference for a healthier and more sustainable future.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="calculator" class="section bg-light text-center">
+        <div class="container">
+            <div class="calculator-container">
+                <h2 class="section-title">Water Usage Calculator</h2>
+                <p class="section-description">
+                    Calculate your household's daily water usage and find ways to save water.
+                </p>
+                <a href="calculator.html" class="btn btn-primary btn-lg">Calculate Now</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="information" class="section">
+        <div class="container">
+            <div class="row">
+                <!-- Water Crisis Awareness -->
+                <div class="col-lg-6">
+                    <div class="fact-card">
+                        <h3 class="fact-title">Water Crisis Awareness</h3>
+                        <p class="fact-text">There is a water crisis and it’s happening now.</p>
+                        <p class="fact-text">2.2 billion people still do not have access to safely managed drinking water.</p>
+                    </div>
+                </div>
+                <!-- Safely Managed Water -->
+                <div class="col-lg-6">
+                    <div class="fact-card">
+                        <h3 class="fact-title">Safely Managed Water</h3>
+                        <p class="fact-text">Water needs to be more than clean.</p>
+                        <p class="fact-text">Safely managed water means having water at home, whenever needed, and free from contamination.</p>
+                    </div>
+                </div>
+                <!-- Impact of Sanitation on Health -->
+                <div class="col-lg-6">
+                    <div class="fact-card">
+                        <h3 class="fact-title">Impact of Sanitation on Health</h3>
+                        <p class="fact-text">Without safely managed sanitation, diseases spread rapidly.</p>
+                        <p class="fact-text">3.6 billion people – nearly half of the world – do not have access to safely managed sanitation.</p>
+                    </div>
+                </div>
+                <!-- Children's Vulnerability -->
+                <div class="col-lg-6">
+                    <div class="fact-card">
+                        <h3 class="fact-title">Children's Vulnerability</h3>
+                        <p class="fact-text">Children are most at risk.</p>
+                        <p class="fact-text">Every day, over 1000 children under 5 die from diseases linked to unsafe water, sanitation, and hygiene.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 AquaAware. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

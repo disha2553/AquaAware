@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Usage Calculator</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <style>
+        body {
+            background-image: url('images/calculator.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+        .result-box {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 20px;
+            border-radius: 10px;
+            color: rgb(0, 0, 0);
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="my-4">Water Usage Calculator</h1>
+        <form id="waterUsageForm">
+            <!-- Questions will be dynamically added here -->
+        </form>
+        <button class="btn btn-primary mt-4" onclick="calculateUsage()">Calculate</button>
+        <div id="result" class="result-box mt-4"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
