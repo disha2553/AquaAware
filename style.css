@@ -56,7 +56,6 @@ body {
     background-image: url('images/about us.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 400px;
     display: flex;
     align-items: center;
